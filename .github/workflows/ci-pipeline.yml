@@ -18,4 +18,9 @@ jobs:
         with:
           name: build-output
           path: output.txt
-
+          
+      - name: Give permission
+        run: chmod +x build.sh
+            
+      - name: Run build script
+        run: ./build.sh
