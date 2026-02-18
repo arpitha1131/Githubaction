@@ -1,0 +1,13 @@
+#Testing YAML
+
+person:
+  name: Arpitha
+  role: DevOps Learner
+
+skills:
+  -git
+  -linux
+  -CI/CD
+  - name: Print message
+    run : echo "learning YAML"
+
