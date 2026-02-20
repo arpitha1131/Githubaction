@@ -1,5 +1,6 @@
 #!/bin/bash
 
-echo "Starting build process..."
-echo "Build successful!" > output.txt
+echo "Starting build..."
+echo "App version 1.0" > output.txt
+echo "Build successful!"
 
